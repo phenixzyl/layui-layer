@@ -19,10 +19,10 @@ specifiers:
   ttf2woff2: ^5.0.0
 
 dependencies:
-  '@types/jquery': 3.5.16
   jquery: 3.6.4
 
 devDependencies:
+  '@types/jquery': 3.5.16
   '@types/node': 18.15.0
   '@xmldom/xmldom': 0.8.6
   esbuild: 0.17.11
@@ -292,7 +292,7 @@ packages:
     resolution: {integrity: sha512-bsI7y4ZgeMkmpG9OM710RRzDFp+w4P1RGiIt30C1mSBT+ExCleeh4HObwgArnDFELmRrOpXgSYN9VF1hj+f1lw==}
     dependencies:
       '@types/sizzle': 2.3.3
-    dev: false
+    dev: true
 
   /@types/node/18.15.0:
     resolution: {integrity: sha512-z6nr0TTEOBGkzLGmbypWOGnpSpSIBorEhC4L+4HeQ2iezKCi4f77kyslRwvHeNitymGQ+oFyIWGP96l/DPSV9w==}
@@ -300,7 +300,7 @@ packages:
 
   /@types/sizzle/2.3.3:
     resolution: {integrity: sha512-JYM8x9EGF163bEyhdJBpR2QX1R5naCJHC8ucJylJ3w9/CVBaskdQ8WqBf8MmQrd1kRvp/a4TS8HJ+bxzR7ZJYQ==}
-    dev: false
+    dev: true
 
   /@xmldom/xmldom/0.7.9:
     resolution: {integrity: sha512-yceMpm/xd4W2a85iqZyO09gTnHvXF6pyiWjD2jcOJs7hRoZtNNOO1eJlhHj1ixA+xip2hOyGn+LgcvLCMo5zXA==}

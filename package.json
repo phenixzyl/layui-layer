@@ -3,7 +3,6 @@
   "realname": "layer",
   "version": "3.5.1",
   "description": "Web 通用弹出层组件",
-  "main": "src/layer.js",
   "license": "MIT",
   "scripts": {
     "run": "gulp",
@@ -28,13 +27,15 @@
     "./*": "./*"
   },
   "main": "./dist/layer.js",
+  "unpkg": "dist/layer.umd.js",
+  "jsdelivr": "dist/layer.umd.js",
   "types": "./src/layer.d.ts",
   "dependencies": {
-    "@types/jquery": "*",
     "jquery": "^3.6.0"
   },
   "devDependencies": {
     "@types/node": "18.15.0",
+    "@types/jquery": "*",
     "rimraf": "^4.3.1",
     "esbuild": "^0.17.11",
     "postcss": "^8.4.21",

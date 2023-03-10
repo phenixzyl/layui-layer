@@ -13,7 +13,7 @@ export default defineConfig({
       target: 'ie9',
     }),
     postcss({
-      minimize: false,
+      minimize: true,
       sourceMap: true,
       extract: 'css/layer.css',
       plugins: [url({ url: 'inline' })],
