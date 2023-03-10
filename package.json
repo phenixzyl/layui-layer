@@ -21,12 +21,6 @@
   },
   "devDependencies": {
     "@types/node": "18.15.0",
-    "gulp": "^3.9.0",
-    "gulp-minify-css": "^1.2.4",
-    "gulp-uglify": "^1.5.4",
-    "gulp-rename": "^1.2.2",
-    "gulp-header": "^1.8.8",
-    "del": "^2.2.2",
     "rimraf": "^4.3.1",
     "esbuild": "^0.17.11",
     "postcss": "^8.4.21",
