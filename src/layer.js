@@ -98,7 +98,7 @@ var isLayui = window.layui && layui.define, $, win, ready = {
 
 //默认内置方法。
 export var layer = {
-  v: '3.6.0',
+  v: '2.8.0-rc.10',
   ie: function(){ //ie 版本
     var agent = navigator.userAgent.toLowerCase();
     return (!!window.ActiveXObject || "ActiveXObject" in window) ? (
