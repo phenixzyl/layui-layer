@@ -24,7 +24,7 @@ body{padding: 100px;}
 </script>
 </head>
 <body>
-
+<div id="version"></div>
 <div class="layui-btn-container">
   <button class="layui-btn layui-btn-primary" lay-on="test">Alert</button>
   <button class="layui-btn" lay-on="test2">Confirm</button>
@@ -88,8 +88,8 @@ var runTest = function(run, $, layer){
 };
 window.jQuery && runTest(1, window.jQuery, window.layer);
 
-layui.use(['layer', 'util'], function(layer, util){
-  var $ = layui.jquery;
+layui.use(['util'], function(util){
+  var $ = jquery;
   var util = layui.util;
   //return
   
@@ -224,6 +224,7 @@ layui.use(['layer', 'util'], function(layer, util){
   
   //动态追加
   $('#photos').append('<li class="list"><img src="https://unpkg.com/outeres/demo/3.jpg"></li>');
+  $('#version').html(layer.v)
  
 });
 </script>
