@@ -8,8 +8,9 @@
   "license": "MIT",
   "scripts": {
     "run": "gulp",
-    "build": "rollup -c",
-    "update": "node script/update-layer.mjs"
+    "build": "npm run clean && rollup -c",
+    "update": "node script/update-layer.mjs",
+    "clean": "rimraf dist"
   },
   "repository": {
     "type": "https",
@@ -26,6 +27,7 @@
     "gulp-rename": "^1.2.2",
     "gulp-header": "^1.8.8",
     "del": "^2.2.2",
+    "rimraf": "^4.3.1",
     "esbuild": "^0.17.11",
     "postcss": "^8.4.21",
     "postcss-url": "^10.1.3",
