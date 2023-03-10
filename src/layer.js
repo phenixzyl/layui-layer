@@ -2,7 +2,7 @@
  * layer
  * 通用 Web 弹出层组件
  */
-// @ts-nocheck
+
 import jQuery from 'jquery';
 import './css/layer.css';
 "use strict";
