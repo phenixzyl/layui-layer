@@ -2,7 +2,6 @@
   "name": "layer-src",
   "realname": "layer",
   "version": "3.5.1",
-  "mobile": "2.0.0",
   "description": "Web 通用弹出层组件",
   "main": "src/layer.js",
   "license": "MIT",
@@ -16,7 +15,22 @@
     "type": "https",
     "url": "git+https://github.com/sentsin/layer.git"
   },
+  "files": [
+    "dist",
+    "src",
+    "layer.d.ts"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/layer.mjs",
+      "require": "./dist/layer.js"
+    },
+    "./*": "./*"
+  },
+  "main": "./dist/layer.js",
+  "types": "./src/layer.d.ts",
   "dependencies": {
+    "@types/jquery": "*",
     "jquery": "^3.6.0"
   },
   "devDependencies": {
