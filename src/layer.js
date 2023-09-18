@@ -444,7 +444,7 @@ Class.pt.creat = function(){
     break;
     case 2:
       var content = config.content = conType ? config.content : [config.content||'', 'auto'];
-      config.content = '<iframe scrolling="'+ (config.content[1]||'auto') +'" allowtransparency="true" id="'+ doms[4] +''+ times +'" name="'+ doms[4] +''+ times +'"  class="layui-layer-load" frameborder="0" src="' + config.content[0] + '"></iframe>';
+      config.content = '<iframe scrolling="'+ (config.content[1]||'auto') +'" allowtransparency="true" id="'+ doms[4] +''+ times +'" name="'+ doms[4] +''+ times +'" onload="this.className=\'\';" class="layui-layer-load" frameborder="0" src="' + config.content[0] + '"></iframe>';
     break;
     case 3:
       delete config.title;
