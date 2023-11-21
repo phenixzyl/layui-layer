@@ -1599,6 +1599,7 @@ layer.photos = function(options, loop, key){
       } else {
         zoomElem.eq(1).trigger('click');
       }
+      e.preventDefault();
     });
 
   };
